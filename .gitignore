@@ -169,3 +169,11 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/windows,linux,macos,sublimetext,visualstudiocode,node,git
+
+### Angular 2 ###
+typings
+app/**/*.js
+**/*.map
+node_modules
+jspm_packages
+bower_components
