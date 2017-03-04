@@ -5,7 +5,7 @@
   "description": "A simple application to search github profiles.",
   "scripts": {
     "lint": "tslint ./src/**/*.ts -t verbose",
-    "start:webpack": "webpack-dev-server --inline --progress --port 8080",
+    "start:webpack": "webpack-dev-server",
     "build:webpack": "rimraf dist && webpack --config config/webpack.prod.js --bail",
     "build:webpack-d": "rimraf dist && webpack -d --config config/webpack.prod.js --bail",
     "less:prefixer": "postcss src/css/*.css --use autoprefixer",

@@ -2,10 +2,25 @@
     <div class="user-avatar-container">
         <img class="img-thumbnail user-avatar" src="{{user.avatarUrl}}" />
     </div>
+    <div class="user-name-container">
+        <label class="user-name">{{user.name}}</label>
+    </div>
     <div class="user-details">
-        <label>{{user.publicRepos}} Repositories</label>
-        <label>{{user.publicGists}} Gists</label>
-        <label>{{user.followers}} Followers</label>
-        <label>{{user.following}} Following</label>
+        <div class="user-details-row">
+            <div class="user-details-count-label">{{user.publicRepos}}</div>
+            <div class="user-details-label">Repositories</div>
+        </div>
+        <div class="user-details-row">
+            <div class="user-details-count-label">{{user.publicGists}}</div>
+            <div class="user-details-label">Gists</div>
+        </div>
+        <div class="user-details-row">
+            <div class="user-details-count-label">{{user.followers}}</div>
+            <div class="user-details-label">Followers</div>
+        </div>
+        <div class="user-details-row">
+            <div class="user-details-count-label">{{user.following}}</div>
+            <div class="user-details-label">Following</div>
+        </div>
     </div>
 </div>
