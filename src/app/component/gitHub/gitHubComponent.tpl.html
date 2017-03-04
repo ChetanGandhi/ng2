@@ -1,3 +1,11 @@
-<div *ngIf="!!user">
-    {{user.name}}
+<div *ngIf="!!user" class="user-profile-panel">
+    <div class="user-avatar-container">
+        <img class="img-thumbnail user-avatar" src="{{user.avatarUrl}}" />
+    </div>
+    <div class="user-details">
+        <label>{{user.publicRepos}} Repositories</label>
+        <label>{{user.publicGists}} Gists</label>
+        <label>{{user.followers}} Followers</label>
+        <label>{{user.following}} Following</label>
+    </div>
 </div>

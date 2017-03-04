@@ -1,12 +1,11 @@
 import { Component } from "@angular/core"
 import { GitHubService } from "../../services/gitHubService/gitHubService"
 import { IGitHubService } from "../../services/gitHubService/gitHubService"
-import { IGitHubUser } from "../../services/gitHubService/gitHubService"
+import { IGitHubUser } from "../../modals/gitUser"
 
 @Component({
-    moduleId: module.id,
     selector: 'git-hub-search',
-    templateUrl: "gitHubComponent.tpl.html",
+    templateUrl: "./gitHubComponent.tpl.html",
     providers: [GitHubService]
 })
 

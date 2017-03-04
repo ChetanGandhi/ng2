@@ -173,7 +173,9 @@ $RECYCLE.BIN/
 ### Angular 2 ###
 typings
 app/**/*.js
+app/*.js
 **/*.map
 node_modules
 jspm_packages
 bower_components
+dist
